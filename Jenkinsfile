@@ -9,7 +9,7 @@ agent any
     stage("Init"){
        steps
       {
-        sh 'Initialize'
+        sh 'echo "Initialize"'
       }
     }
     
