@@ -5,7 +5,10 @@ agent any
   stages {
     
     stage("Init"){
-      print "Hello world"
+       steps
+      {
+        sh '"echo "Hello"'
+      }
     }
 
   }
