@@ -3,7 +3,7 @@ pipeline {
 agent any
   
 environment {
-    DOCKER_COMMON_CREDS = credentials('jenkins-bitbucket-common-creds')
+    DOCKER_COMMON_CREDS = credentials('a05e481d-4987-4a51-8569-41fc1a47e11e')
 }
 
   stages {
