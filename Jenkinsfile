@@ -1,6 +1,11 @@
 pipeline {
 
-agent any
+agent {
+        docker {
+            image 'node:6-alpine'
+            args '-p 3000:3000'
+        }
+    }
   
    parameters {
         string(name: 'Greeting', defaultValue: 'Hello', description: 'How should I greet the world?')
