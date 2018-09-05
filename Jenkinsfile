@@ -8,7 +8,7 @@ agent {
     }
   
    parameters {
-        string(name: 'Greeting', defaultValue: 'Hello', description: 'How should I greet the world?')
+        string(name: 'Environemnt', defaultValue: 'dev', description: 'Enter the Environment name')
     }
   
   
